@@ -1,0 +1,52 @@
+/* default */
+/* header {
+    background: #4B7678;
+    padding: 5px;
+} */
+body {
+    font-family: 'inter', sans-serif;
+}
+img {
+    border-radius: 28px;
+}
+/* scroll snapping */
+/* #container > div {
+    scroll-snap-type: both proximity;
+  } */
+/* nav bar */
+.nav-item {
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+}
+/* styles for wrapping the search box */
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+/* text input with search icon */
+.has-search .form-control {
+    padding-left: 2.375rem;
+    position: relative;
+    border-radius: 28px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/* scroll snap */
+/* section {
+    scroll-snap-align: start;
+    overflow-y: scroll;
+}
+.container {
+    scroll-snap-type: y mandatory;
+} */
